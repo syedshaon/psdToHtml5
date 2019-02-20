@@ -58,7 +58,7 @@ body {
 
 #hero{
   /* background-image: linear-gradient(rgba(218,51,46,0.4),rgba(218,51,46,0.4)),url('img/bg-01N.png');*/
-     background-image:url('../img/bg-01N.png');
+     background-image:url('../img/bg01-New.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -271,7 +271,7 @@ border-color: transparent transparent #ffff transparent;
 
 
 #nose{
-    background: url(../img/nose-bg.png);
+    background: url(../img/nose-bg.jpg);
     background-size: cover;
     background-position: right;
     overflow: hidden;
