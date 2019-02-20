@@ -1,38 +1,34 @@
-﻿.triangle{
+﻿.triangle {
     border-width: 0 0 150px 99vw;
 }
-.triangle2{
+
+.triangle2 {
     border-width: 150px 99vw 0 0;
 }
 
-
 @media only screen and (max-width:1200px) {
-    
-    
+    /* -------------------------nav Area----------------- */
+    .navbar ul li a {
+        margin-left: 15px;
+    }
     /* -------------------------Nose Area----------------- */
-    .nav li a{ 
-    margin-left: 15px; 
-}
-    
-       /* -------------------------Nose Area----------------- */
-    #nose .container{
-    padding-left: 50px;
-}
-    .red{
+    #nose .container {
+        padding-left: 50px;
+    }
+    .red {
         color: black;
     }
-    #nose h2{
-    padding-right: 40%;
-}
-#nose p{
-    padding-right: 45%;
-}
-    
+    #nose h2 {
+        padding-right: 40%;
+    }
+    #nose p {
+        padding-right: 45%;
+    }
     /* -------------------------Footer Area----------------- */
     footer .container {
         padding-left: 80px;
     }
-    .logo-footer{
+    .logo-footer {
         padding-top: 10px;
     }
     .foot-col-4 {
@@ -44,22 +40,19 @@
         width: 30%;
         margin: 0 5%;
     }
-    
-     /* -------------------------copyriht Area----------------- */
-    
-  .copyright h2{    
-    padding-right:30px;      
-      margin-left: -20px;
-}
-
-.copyright p{
-    padding-left:30px;
-    padding-right:30px;
-}
-
-.copyright img{
-    margin-left: 20px;    
-}
-    
-    
+    /* -------------------------copyriht Area----------------- */
+    .copyright h2 {
+        padding-right: 30px;
+        margin-left: -20px;
+        border-right: none;
+    }
+    .webLink {
+        display: block;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    .copyright img {
+        margin-left: 20px;
+    }
 }

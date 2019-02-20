@@ -1,13 +1,16 @@
 @media only screen and (max-width:900px) {
-    #nav-icon2 {
-        display: block;
-    }
     /* -------------------------Nav Area----------------- */
     .navbar {
         display: none;
     }
+    .logoM {
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        z-index: 20;
+    }
     .mMenu {
-        display: none;
+        /*display: none; */
         background: -webkit-gradient(linear, left top, left bottom, from(#e05f3d), color-stop(34%, #dd7c63), color-stop(67%, #d7dedc), to(#736f7a));
         background: linear-gradient(to bottom, #e05f3d 0%, #dd7c63 34%, #d7dedc 67%, #736f7a 99%);
         background: -webkit-gradient(linear, left top, left bottom, from(#736f7a), color-stop(34%, #d7dedc), color-stop(67%, #dd7c63), to(#e05f3d));
@@ -19,67 +22,65 @@
         top: 0px;
         left: 0px;
     }
-    .logoM {
-        position: absolute;
-        top: 40px;
-        left: 100px;
-        z-index: 20;
-    }
     .copyrightM {
         position: absolute;
-        bottom: 40px;
+        bottom: 0px;
         width: 100%;
         margin: auto;
         text-align: center;
         z-index: 20;
     }
     .copyrightM h2 {
-        font-size: 24px;
+        font-size: 20px;
         margin: 0 auto;
         display: block;
         padding-bottom: 10px;
     }
-    .copyrightM p {
-        font-size: 24px;
+    .webLinkM {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
         margin: 0 auto;
         display: block;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
     .copyrightM img {
         margin-left: 20px;
+        margin-bottom: -20px;
     }
-    .navN {
+    #navN {
         position: absolute;
-        top: 250px;
+        bottom: 160px;
         width: 100%;
     }
-    .navN li a {
-        color: white;
+    #navN ul li {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #navN ul li:hover {
+        background-color: rgba(255, 255, 204, .2);
+    }
+    #navN ul li a {
+        width: 50%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 auto;
+        color: black;
         text-decoration: none;
         font-size: 25px;
         padding-bottom: : 3px;
-        /*  border-bottom: 4px solid black transparent;
-        transition: border-bottom 0.1s, color 0.1s;*/
     }
-    .navN li {
-        width: 90%;
-        margin: 0 auto;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-top: 20px;
-        padding-bottom: 20px;
+    #nav-icon2 {
+        display: block;
     }
-    .navN li:hover {
-        border-bottom: 4px solid white;
-        /* transition: border-bottom 0.1s, color 0.1s;*/
-    }
-    
     /* Icon 1 */
     #nav-icon2 {
         width: 60px;
         height: 45px;
         position: absolute;
-        right: 80px;
+        right: 20px;
         top: 40px;
         z-index: 20;
         margin: 5px 5px;
@@ -90,7 +91,6 @@
         cursor: pointer;
     }
     /* Icon 2 */
-    
     #nav-icon2 span {
         display: block;
         position: absolute;

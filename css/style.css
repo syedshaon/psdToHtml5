@@ -439,7 +439,9 @@ footer .footAbout {
     border-right: 2px solid black;
 }
 
-.copyright p {
+.webLink {
+    color: black;
+    text-decoration: none;
     font-family: "Helvetica";
     font-size: 20px;
     display: inline;
