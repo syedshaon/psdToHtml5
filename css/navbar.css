@@ -158,3 +158,27 @@
         top: 29px;
     }
 }
+
+@media only screen and (max-width:700px) {
+    .cta-info {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    .cta h2 {
+        font-size: 40px;
+    }
+    .hero-para {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .logoM {
+        left: 20px;
+    }
+    #nav-icon2 {
+        width: 40px;
+        right: 15px;
+    }
+}
