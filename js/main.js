@@ -21,25 +21,29 @@ $(document).ready(function () {
 });
 // Hamburger to CROSS switch
 $(document).ready(function () {
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
+    $('#nav-icon2').click(function () {
         $(this).toggleClass('open');
-        $('.triangle').toggle();
-        $('.cta').toggle();
+        $('.hero').toggle();
         $('#features').toggle();
         $('#nose').toggle();
         $('.footer').toggle();
-        $('.mNavbar').toggle();
-        $('.Navbar').toggleClass('Navbar');
-        $('.nav').toggleClass('navM');
-        $('.nav').toggleClass('nav');
-        $('.logo').toggleClass('logoM');
-        $('.logo').toggleClass('logo');
-        $('.hero').toggleClass('hero');
-        $('#mCopy').toggleClass('flipInY');
-        $('#mCopy').toggleClass('wow');
-        $('#mCopy').toggleClass('copyrightM');
-        $('#mCopy').toggleClass('copyright');
+        $('.copyright').toggle();
+        $('.mMenu').toggle();
+        $('#mCopy').addClass('copyrightM');
     });
+});
+$(window).resize(function () {
+    $('#nav-icon2').removeClass('open');
+    $('.hero').show();
+    $('#features').show();
+    $('#nose').show();
+    $('.footer').show();
+    $('.copyright').show();
+    $('.mMenu').hide();
+    $('#mCopy').removeClass('copyrightM');
+    if (window.innerWidth < 900) {
+        $('.showHide').show();
+    }
 });
 // This works perfect
 //function imgSlideUp() {

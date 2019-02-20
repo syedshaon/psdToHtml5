@@ -1,28 +1,23 @@
 @media only screen and (max-width:900px) {
-    .Navbar {
-        display: none;
-    }
     #nav-icon2 {
         display: block;
     }
     /* -------------------------Nav Area----------------- */
-    .mNavbar {
+    .navbar {
+        display: none;
+    }
+    .mMenu {
         display: none;
         background: -webkit-gradient(linear, left top, left bottom, from(#e05f3d), color-stop(34%, #dd7c63), color-stop(67%, #d7dedc), to(#736f7a));
-        background: linear-gradient(to bottom, #e05f3d 0%, #dd7c63 34%, #d7dedc 67%, #736f7a 100%);
+        background: linear-gradient(to bottom, #e05f3d 0%, #dd7c63 34%, #d7dedc 67%, #736f7a 99%);
         background: -webkit-gradient(linear, left top, left bottom, from(#736f7a), color-stop(34%, #d7dedc), color-stop(67%, #dd7c63), to(#e05f3d));
-        background: linear-gradient(to bottom, #736f7a 0%, #d7dedc 34%, #dd7c63 67%, #e05f3d 100%);
+        background: linear-gradient(to bottom, #736f7a 0%, #d7dedc 34%, #dd7c63 67%, #e05f3d 99%);
         height: 100vh;
         width: 100%;
         text-align: center;
-        position: absolute;
+        position: relative;
         top: 0px;
-        left: 10px;
-    }
-    .navM {
-        position: absolute;
-        bottom: 250px;
-        width: 100%;
+        left: 0px;
     }
     .logoM {
         position: absolute;
@@ -53,7 +48,12 @@
     .copyrightM img {
         margin-left: 20px;
     }
-    .navM li a {
+    .navN {
+        position: absolute;
+        top: 250px;
+        width: 100%;
+    }
+    .navN li a {
         color: white;
         text-decoration: none;
         font-size: 25px;
@@ -61,7 +61,7 @@
         /*  border-bottom: 4px solid black transparent;
         transition: border-bottom 0.1s, color 0.1s;*/
     }
-    .navM li {
+    .navN li {
         width: 90%;
         margin: 0 auto;
         -webkit-box-sizing: border-box;
@@ -69,11 +69,11 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-    .navM li:hover {
+    .navN li:hover {
         border-bottom: 4px solid white;
         /* transition: border-bottom 0.1s, color 0.1s;*/
     }
-    #nav-icon2 {}
+    
     /* Icon 1 */
     #nav-icon2 {
         width: 60px;
@@ -90,7 +90,7 @@
         cursor: pointer;
     }
     /* Icon 2 */
-    #nav-icon2 {}
+    
     #nav-icon2 span {
         display: block;
         position: absolute;

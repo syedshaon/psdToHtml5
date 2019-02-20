@@ -61,7 +61,7 @@ body {
     width: 100%;
 }
 
-#hero {
+.hero {
     /* background-image: linear-gradient(rgba(218,51,46,0.4),rgba(218,51,46,0.4)),url('img/bg-01N.png');*/
     background-image: url('../img/bg01-New.jpg');
     background-size: cover;
@@ -93,12 +93,9 @@ border-color: transparent transparent #ffff transparent;*/
     border-color: transparent transparent #ffff transparent;
 }
 
-
-/*
 #nav-icon2 {
     display: none;
 }
- */
 
 .nav li {
     display: inline-block;
@@ -413,6 +410,10 @@ footer .footAbout {
     font-size: 18px;
     color: white;
     width: 70%;
+}
+
+.mMenu {
+    display: none;
 }
 
 .copyright {
