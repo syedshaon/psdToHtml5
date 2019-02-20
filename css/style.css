@@ -72,7 +72,7 @@ border-color: transparent transparent #ffff transparent;*/
 /* USED THIS SITE FOR TRIANGLE  http://apps.eky.hk/css-triangle-generator/  */
 .triangle{
     position: absolute;
-    left: 0px;
+    right: 0px;
     margin-top: 5px;
     top: 782px;
     overflow: hidden;
