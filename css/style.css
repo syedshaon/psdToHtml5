@@ -103,8 +103,12 @@ border-color: transparent transparent #ffff transparent;*/
     float: right;
 }
 
+.navbar ul {
+    display: inline;
+}
+
 .navbar ul li {
-    display: inline-block;
+    display: inline;
 }
 
 .navbar ul li a {
