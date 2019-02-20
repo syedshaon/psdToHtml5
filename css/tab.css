@@ -4,87 +4,62 @@
 .triangle2{
     border-width: 150px 99vw 0 0;
 }
-/*
+
 
 @media only screen and (max-width:1200px) {
-     
     
-    footer .container{
-        padding-left:80px;
+    
+    /* -------------------------Nose Area----------------- */
+    .nav li a{ 
+    margin-left: 15px; 
+}
+    
+       /* -------------------------Nose Area----------------- */
+    #nose .container{
+    padding-left: 50px;
+}
+    .red{
+        color: black;
     }
-
-    footer h4 {
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        margin-bottom: 30px;
+    #nose h2{
+    padding-right: 40%;
+}
+#nose p{
+    padding-right: 45%;
+}
+    
+    /* -------------------------Footer Area----------------- */
+    footer .container {
+        padding-left: 80px;
     }
-
-
+    .logo-footer{
+        padding-top: 10px;
+    }
     .foot-col-4 {
-        width: 22%;
+        width: 27%;
         padding: 0;
         float: left;
     }
-
-
-        .foot-col-4:nth-of-type(3) {
-            width: 30%;
-            margin: 0 10%;
-        }
-
-
-        .foot-col-4 ul {
-            display: inline;
-            width: 100%;
-        }
-
-
-    footer h5 {
-        font-size: 16px;
-        font-weight: bold;
-        color: white;
-        margin-bottom: 10px;
-    }
-
-    footer p {
-        font-size: 16px;
-        color: white;
-        margin-bottom: 50px;
-        color: white;
-    }
-
-        footer p:nth-of-type(1) {
-            font-size: 12px;
-            margin-bottom: 20px;
-        }
-
-    footer .footAbout {
-        font-style: italic;
-    }
-
-
-    .foot-col-4 ul li img {
-        float: left;
-        padding-right: 10px;
+    .foot-col-4:nth-of-type(3) {
         width: 30%;
+        margin: 0 5%;
     }
-
-    .foot-col-4 ul li p {
-        float: left;
-        font-size: 16px;
-        color: white;
-        width: 70%;
-    }
+    
+     /* -------------------------copyriht Area----------------- */
+    
+  .copyright h2{    
+    padding-right:30px;      
+      margin-left: -20px;
 }
 
-
-
-    #nose{
-    background: url(../img/nose-bg.png);
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: right; 
+.copyright p{
+    padding-left:30px;
+    padding-right:30px;
 }
 
-*/
+.copyright img{
+    margin-left: 20px;    
+}
+    
+    
+}

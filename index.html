@@ -21,20 +21,17 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/tab.css" />
-
-
-
-
-</head>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar.css" /> </head>
 
 <body>
-
-    <section id="hero">
+    <section class="hero">
         <div class="container">
             <div class="logo alignLeft">
                 <a href="#" class="logo-img"><img alt=".." src="img/logo.png"></a>
             </div>
-            <nav class="navbar alignRight">
+            <div id="nav-icon2"> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> </div>
+            <nav class="navbar mNavbar">
                 <ul class="nav">
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">FEATURES</a></li>
@@ -44,22 +41,8 @@
                 </ul>
             </nav>
             <div class="cta">
-                <div class="imgs" id="imgs">
-                    <img alt=".." src="img/iphone-button.png" id="iphone-button">
-                    <img alt=".." src="img/iphone-off.png" id="iphone-off">
-                    <img alt=".." src="img/iphone_screen.jpg" id="iphone-screen">
-
-                    <!-- <img alt=".."  src="img/iphone.png" class="iphone"> -->
-
-                </div>
-
-
-
-
-
-
-
-
+                <div class="imgs" id="imgs"> <img alt=".." src="img/iphone-button.png" id="iphone-button"> <img alt=".." src="img/iphone-off.png" id="iphone-off"> <img alt=".." src="img/iphone_screen.jpg" id="iphone-screen">
+                    <!-- <img alt=".."  src="img/iphone.png" class="iphone"> --></div>
                 <div class="cta-info">
                     <h2>
                         Chocolate pudding dessert jelly
@@ -71,57 +54,49 @@
         </div>
         <div class="triangle"></div>
     </section>
-
     <section id="features">
-
         <div class="container">
-
             <h2 class="app-features wow fadeInDown">App Features</h2>
             <p class="p-features"> Donut sesame snaps donut pie dessert chupa chups wafer dragée. Gummies fruitcake chupa chups cookie liquorice. Chocolate pudding dessert jelly fruitcake tart jelly wafer. Sweet roll carrot cake croissant. </p>
             <div class="row">
-                <div class="col-4 wow  fadeInLeft">
-                    <img alt=".." src="img/service_01.jpg">
+                <div class="col-4 wow  fadeInLeft"> <img alt=".." src="img/service_01.jpg">
                     <h3>Scalable</h3>
                     <p>Croissant ice cream macaroon cake. Dessert jelly beans candy cookie. Bear claw candy canes gingerbread caramels cake. Macaroon applicake gummi bears jelly marzipan.</p>
                 </div>
-                <div class="col-4 wow fadeInUp">
-                    <img alt=".." src="img/service_02.jpg">
+                <div class="col-4 wow fadeInUp"> <img alt=".." src="img/service_02.jpg">
                     <h3>Instant</h3>
                     <p>Croissant ice cream macaroon cake. Dessert jelly beans candy cookie. Bear claw candy canes gingerbread caramels cake. Macaroon applicake gummi bears jelly marzipan.</p>
                 </div>
-                <div class="col-4 wow fadeInRight">
-                    <img alt=".." src="img/service_03.jpg">
+                <div class="col-4 wow fadeInRight"> <img alt=".." src="img/service_03.jpg">
                     <h3>Something</h3>
                     <p>Croissant ice cream macaroon cake. Dessert jelly beans candy cookie. Bear claw candy canes gingerbread caramels cake. Macaroon applicake gummi bears jelly marzipan.</p>
                 </div>
             </div>
         </div>
-
     </section>
-
     <section id="nose">
         <div class="triangle2"></div>
         <div class="container">
             <div class="download-info ">
                 <h2 class="wow slideInLeft"><span class="red">hocolate</span> pudding dessert jelly <span class="red">fruit cake tart jelly wa</span>fer</h2>
-                <p class="wow slideInRight">Donut cupcake lemon drops dragée liquorice apple pie powder. Topping sweet lollipop soufflé chocolate liquorice candy canes. </p> <a class="wow slideInLeft" href="#">Download</a>
-            </div>
+                <p class="wow slideInRight">Donut cupcake lemon drops dragée liquorice apple pie powder. Topping sweet lollipop soufflé chocolate liquorice candy canes. </p> <a class="wow slideInLeft" href="#">Download</a> </div>
         </div>
     </section>
-
-
-
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <div class="logo-footer  wow lightSpeedIn">
-                <img alt=".." src="img/logo.png">
-            </div>
+            <div class="logo-footer  wow lightSpeedIn"> <img alt=".." src="img/logo.png"> </div>
             <div class="foot-col-4  wow rotateInDownLeft">
                 <h4>Popular Posts</h4>
                 <ul>
-                    <li><img alt=".." src="img/postIMG.png"><p>I Love Donut Bonbon Cackes</p></li>
-                    <li><img alt=".." src="img/postIMG.png"><p>Candy fruitcake biscuit chupa chups</p></li>
-                    <li><img alt=".." src="img/postIMG.png"><p>Candy fruitcake biscuit chupa chups</p></li>
+                    <li><span><img alt=".." src="img/postIMG.png"></span>
+                        <p>I Love Donut Bonbon Cackes</p>
+                    </li>
+                    <li><span><img alt=".." src="img/postIMG.png"></span>
+                        <p>Candy fruitcake biscuit chupa chups</p>
+                    </li>
+                    <li><span><img alt=".." src="img/postIMG.png"></span>
+                        <p>Candy fruitcake biscuit chupa chups</p>
+                    </li>
                 </ul>
             </div>
             <div class="foot-col-4  wow rotateIn">
@@ -129,41 +104,30 @@
                 <h5>SedLex</h5>
                 <p>10 hours ago</p>
                 <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <h5>Follow us</h5>
-            </div>
+                <h5>Follow us</h5> </div>
             <div class="foot-col-4  wow rotateInDownRight">
                 <h4>About</h4>
                 <p class="footAbout">Cheesecake tiramisu dragée gummies donut cotton candy ice cream I love halvah. Gummies croissant I love gummies gummies. Marshmallow I love gummies sugar plum jelly-o pie. </p>
             </div>
         </div>
     </footer>
-
-
-
-
-    <section class="copyright">
-        <div class="container   wow flipInY">
+    <section id="mCopy" class="copyright  ">
+        <!--  wow flipInY -->
+        <div class="container ">
             <h2>
                 Copyright &copy; Syed Mashiur Rahman 2019
             </h2>
-            <p>  www.deshibhai.com </p>
+            <p> www.deshibhai.com </p>
             <a href="https://www.facebook.com/syed.shaon.10"><img alt=".." src="img/fb.png"></a>
             <a href="https://www.upwork.com/freelancers/~01ba496824bff41b0c"> <img alt=".." src="img/upwork_80.png"></a>
             <a href="https://www.fiverr.com/syeds9"><img alt=".." src="img/fiverr.png"></a>
-
-
         </div>
     </section>
-
-
     <!-- Jquery first, js next -->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- <script src="js/jquery.waypoints.min.js"></script> -->
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-
-
-
 </body>
 
 </html>

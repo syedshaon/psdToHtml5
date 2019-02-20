@@ -2,6 +2,7 @@
     font-family: "HelveticaNeue-Thin";
     src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype')
 }
+
 @font-face {
     font-family: "Helvetica";
     src: local('Helvetica.ttf'), url('Helvetica.ttf') format('truetype')
@@ -9,56 +10,60 @@
 
 
 /* CSS helper classes begins */
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 .alignLeft {
     float: left;
 }
 
+
+/*
 .alignRight {
     float: right;
-}
+}*/
 
-
-
-b, strong{
+b,
+strong {
     font-weight: 700;
 }
 
-em, i{
+em,
+i {
     font-style: italic;
 }
 
-p,ul li, ol li{
+p,
+ul li,
+ol li {
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 20px;
 }
+
+
 /* CSS helper classes ends */
-
-
-
-
 
 .container {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    /*  position: relative  dont work properly if used */ 
+    /*  position: relative  dont work properly if used */
     overflow: hidden;
     padding: 40px 0px 40px 20px;
 }
 
-body {    
-   font-family: 'Montserrat', sans-serif;
+body {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
 }
 
-#hero{
-  /* background-image: linear-gradient(rgba(218,51,46,0.4),rgba(218,51,46,0.4)),url('img/bg-01N.png');*/
-     background-image:url('../img/bg01-New.jpg');
+#hero {
+    /* background-image: linear-gradient(rgba(218,51,46,0.4),rgba(218,51,46,0.4)),url('img/bg-01N.png');*/
+    background-image: url('../img/bg01-New.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -66,107 +71,120 @@ body {
     height: auto;
     border-style: solid;
     padding-bottom: 10px;
-/*border-width: 0 0 80px 2000px;
+    position: relative;
+    /*border-width: 0 0 80px 2000px;
 border-color: transparent transparent #ffff transparent;*/
 }
+
+
 /* USED THIS SITE FOR TRIANGLE  http://apps.eky.hk/css-triangle-generator/  */
-.triangle{
+
+.triangle {
     position: absolute;
     right: 0px;
-    margin-top: 5px;
-    top: 782px;
+    margin-top: -150px;
+    /*  top: 782px; */
+    bottom: -1px;
     overflow: hidden;
     z-index: 10;
     width: 0;
-height: 0;
-border-style: solid;
-
-border-color: transparent transparent #ffff transparent;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent #ffff transparent;
 }
 
 
-.nav li{
+/*
+#nav-icon2 {
+    display: none;
+}
+ */
+
+.nav li {
     display: inline-block;
 }
 
-.nav li a{
+.navbar {
+    padding-top: 18px;
+    display: inline;
+    float: right;
+}
+
+.nav li a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 30px;
-    padding-bottom: :3px;
-    border-bottom: 4px solid white transparent;    
-     transition:  border-bottom 0.1s, color 0.1s;
+    padding-bottom: : 3px;
+    border-bottom: 4px solid white transparent;
+    transition: border-bottom 0.1s, color 0.1s;
 }
 
-
-.nav li a:hover{
+.nav li a:hover {
     border-bottom: 4px solid white;
-    transition:  border-bottom 0.1s, color 0.1s;
+    transition: border-bottom 0.1s, color 0.1s;
 }
 
-
-.cta{
+.cta {
     margin-top: 220px;
-    display: inline-block;    
+    display: inline-block;
     position: relative;
     right: 0px;
-    
 }
 
-.imgs{ 
-    
-     float: right;
-   position: absolute;
-   top: 900px;  /*For animation effect*/
-   transition: all 1s ease-out;
-   padding-left:180px;
-     /*   bottom: -435px; 
+.imgs {
+    float: right;
+    position: absolute;
+    top: 900px;
+    /*For animation effect*/
+    transition: all 1s ease-out;
+    padding-left: 180px;
+    /*   bottom: -435px; 
     top: 0px;*/
     right: 0px;
-     
 }
 
-#iphone-button{
+#iphone-button {
     /*  display: none; */
     position: absolute;
-   top: -84px;
-   transition: all .3s ease-out;
+    top: -84px;
+    transition: all .3s ease-out;
     right: 80px;
     z-index: 1;
     /* padding: 50px;
     background: black;  */
-    
 }
- /*
+
+
+/*
 #iphone-off{
    display: none; 
 }*/
-#iphone-off{    
-     margin-bottom: 0px;
-     position: absolute;
-   top: -84px;
+
+#iphone-off {
+    margin-bottom: 0px;
+    position: absolute;
+    top: -84px;
     right: -60px;
-    z-index: 2; 
-     
+    z-index: 2;
 }
- /*
+
+
+/*
 #iphone-screen{
     display: none;
 }*/
-#iphone-screen{
-   display: none;
-   position: absolute;
-   top: 45px;
+
+#iphone-screen {
+    display: none;
+    position: absolute;
+    top: 45px;
     right: 49px;
     z-index: 3;
     transition: all .3s ease-out;
-    
 }
 
-
-
-.cta h2{    
+.cta h2 {
     color: white;
     font-size: 52px;
     font-weight: bold;
@@ -174,24 +192,23 @@ border-color: transparent transparent #ffff transparent;
     margin-top: -60px;
     margin-bottom: 40px;
 }
-.cta-info{
+
+.cta-info {
     color: #f9e1e0;
     width: 60%;
     padding-right: 150px;
     float: left;
-    
 }
-.hero-para{
-    
+
+.hero-para {
     font-size: 35px;
     line-height: 40px;
     font-family: "HelveticaNeue-Thin";
     color: white;
     margin-bottom: 40px;
-    
 }
 
-.cta-button{
+.cta-button {
     padding: 23px 35px;
     background-color: #282828;
     color: white;
@@ -200,77 +217,67 @@ border-color: transparent transparent #ffff transparent;
     display: inline-block;
     z-index: 200;
     margin-bottom: 100px;
-    
 }
-.cta-button:hover{
+
+.cta-button:hover {
     background-color: #383737;
     transition: .3s;
 }
-.phone-icon{
+
+.phone-icon {
     vertical-align: middle;
     padding-right: 20px;
 }
 
-
-#features{    
+#features {
     text-align: center;
     width: 100%;
-    
 }
 
-
-#features h2{
+#features h2 {
     color: #8a8a8a;
     font-size: 52px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 60px;
 }
-.p-features{
+
+.p-features {
     color: #8a8a8a;
     font-family: "Helvetica";
-    font-size: 22px; 
+    font-size: 22px;
     width: 70%;
     margin: 0 auto;
     margin-bottom: 60px;
-    
-    
 }
 
-
-.col-4{
+#features .col-4 {
     width: 33.33%;
     float: left;
     padding: 0 30px;
 }
 
-.row{
+.row {
     overflow: hidden;
 }
-.row p{  
-    font-size: 18px;     
-    margin-bottom: 20px;
+
+.row p {
+    font-size: 18px;
+    margin-bottom: 24px;
     text-align: center;
     font-family: "Helvetica";
     color: #8a8a8a;
 }
 
-.row h3{
-    font-size: 24px; 
+.row h3 {
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
     margin: 15px auto;
-    
 }
 
-
-
-
-
-
-
-#nose{
+#nose {
     background: url(../img/nose-bg.jpg);
     background-size: cover;
     background-position: right;
@@ -278,24 +285,23 @@ border-color: transparent transparent #ffff transparent;
 }
 
 .triangle2 {
-position: relative;
+    position: relative;
     left: 0px;
     margin-top: -2px;
     top: 2px;
     overflow: hidden;
     z-index: 10;
     width: 0;
-height: 0;
-border-style: solid;
-
-border-color: #fff transparent transparent transparent;
+    height: 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
 }
 
-
-#nose .container{
+#nose .container {
     padding-top: 0;
 }
-#nose h2{
+
+#nose h2 {
     width: 100%;
     padding-right: 50%;
     float: left;
@@ -305,22 +311,25 @@ border-color: #fff transparent transparent transparent;
     text-transform: uppercase;
     margin-top: 200px;
 }
-.red{
+
+.red {
     color: #f55150;
 }
-#nose p{
+
+#nose p {
     font-family: "HelveticaNeue-Thin";
     width: 100%;
     padding-right: 60%;
     float: left;
     text-align: left;
     color: #585858;
-    font-size: 22px;
+    font-size: 26px;
+    line-height: 31px;
     margin: 50px auto;
+    font-weight: bold;
 }
 
-
-#nose a{
+#nose a {
     font-size: 16px;
     padding: 15px 20px;
     background-color: #d9332d;
@@ -330,116 +339,114 @@ border-color: #fff transparent transparent transparent;
     font-weight: bold;
     border-radius: 30px;
     display: inline-block;
-    
 }
 
-#nose a:hover{
-   background-color: #7c3330;
+#nose a:hover {
+    background-color: #7c3330;
     transition: .4s;
 }
 
-footer{
+footer {
     background-color: #2e2e38;
     overflow: hidden;
 }
 
-.logo-footer{
+.logo-footer {
     width: 100%;
     padding: 80px 0 60px 10px;
-    
 }
 
-footer h4{
+footer h4 {
     font-size: 20px;
     font-weight: bold;
-    color:white;
+    color: white;
     margin-bottom: 30px;
 }
 
-
-.foot-col-4{
+.foot-col-4 {
     width: 22%;
     padding: 0;
     float: left;
-    
 }
 
-
-.foot-col-4:nth-of-type(3){
+.foot-col-4:nth-of-type(3) {
     width: 30%;
     margin: 0 10%;
 }
 
-
-.foot-col-4 ul{
+.foot-col-4 ul {
     display: inline;
     width: 100%;
 }
 
-
-footer h5{
+footer h5 {
     font-size: 16px;
     font-weight: bold;
-    color:white;
+    color: white;
     margin-bottom: 10px;
 }
 
-footer p{
-    font-size: 16px;    
-    color:white; 
-    margin-bottom: 50px;       
-    color:white;    
+footer p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+    color: white;
 }
-footer p:nth-of-type(1){
-    font-size: 12px; 
+
+footer p:nth-of-type(1) {
+    font-size: 18px;
     margin-bottom: 20px;
 }
-footer .footAbout{
-    font-style: italic;    
+
+footer .footAbout {
+    font-style: italic;
 }
 
-
-.foot-col-4 ul  li img{
+.foot-col-4 ul li img {
     float: left;
     padding-right: 10px;
     width: 30%;
 }
-.foot-col-4 ul li p{  
+
+.foot-col-4 ul li p {
     float: left;
-     font-size: 18px;
+    font-size: 18px;
     color: white;
     width: 70%;
 }
 
-.copyright{
+.copyright {
     background-color: #d7dedc;
+    text-align: center;
 }
 
-.copyright h2{
+.copyright .container {
+    padding-left: 0px;
+}
+
+.copyright h2 {
+    margin-left: -80px;
     font-family: "Helvetica";
     font-size: 20px;
     display: inline;
     vertical-align: middle;
-    padding-right:50px;
-    border-right:2px solid black;
+    padding-right: 50px;
+    border-right: 2px solid black;
 }
 
-.copyright p{
+.copyright p {
     font-family: "Helvetica";
     font-size: 20px;
     display: inline;
     vertical-align: middle;
-    padding-left:50px;
-    padding-right:50px;
-    border-right:2px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 2px solid black;
 }
 
-.copyright img{
+.copyright img {
     margin-left: 30px;
     height: 26px;
     width: auto;
     vertical-align: middle;
 }
-
-
-
