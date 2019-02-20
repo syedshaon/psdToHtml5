@@ -97,17 +97,17 @@ border-color: transparent transparent #ffff transparent;*/
     display: none;
 }
 
-.nav li {
-    display: inline-block;
-}
-
 .navbar {
     padding-top: 18px;
     display: inline;
     float: right;
 }
 
-.nav li a {
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
     color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -117,7 +117,7 @@ border-color: transparent transparent #ffff transparent;*/
     transition: border-bottom 0.1s, color 0.1s;
 }
 
-.nav li a:hover {
+.navbar ul li a:hover {
     border-bottom: 4px solid white;
     transition: border-bottom 0.1s, color 0.1s;
 }
