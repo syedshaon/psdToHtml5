@@ -415,16 +415,28 @@ footer .footAbout{
     background-color: #d7dedc;
 }
 
-.copyright p{
+.copyright h2{
     font-family: "Helvetica";
-    font-size: 26px;
+    font-size: 20px;
     display: inline;
     vertical-align: middle;
+    padding-right:50px;
+    border-right:2px solid black;
 }
 
-.copyright p img{
+.copyright p{
+    font-family: "Helvetica";
+    font-size: 20px;
+    display: inline;
+    vertical-align: middle;
+    padding-left:50px;
+    padding-right:50px;
+    border-right:2px solid black;
+}
+
+.copyright img{
     margin-left: 30px;
-    height: 22px;
+    height: 26px;
     width: auto;
     vertical-align: middle;
 }
