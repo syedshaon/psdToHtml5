@@ -71,27 +71,15 @@
         margin: 0 auto;
         display: block;
         padding-bottom: 20px;
+        border-right: none;
     }
     .webLink {
         margin: 0 auto;
         display: block;
         padding-bottom: 20px;
+        border-right: none;
     }
     .copyright img {
         margin-left: 20px;
-    }
-}
-
-@media only screen and (max-width:700px) {
-    .cta-info {
-        width: 100%;
-        text-align: center;
-        padding: 5px;
-    }
-    .cta h2 {
-        font-size: 40px;
-    }
-    .hero-para {
-        font-size: 30px;
     }
 }

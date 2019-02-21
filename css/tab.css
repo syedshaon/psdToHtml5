@@ -44,15 +44,13 @@
     .copyright h2 {
         padding-right: 30px;
         margin-left: -20px;
-        border-right: none;
     }
     .webLink {
-        display: block;
         padding-left: 30px;
         padding-right: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
     .copyright img {
-        margin-left: 20px;
+        margin-left: 30px;
     }
 }
