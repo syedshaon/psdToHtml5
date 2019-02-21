@@ -81,6 +81,8 @@ border-color: transparent transparent #ffff transparent;*/
 
 .triangle {
     position: absolute;
+    float: right;
+    margin-left: auto;
     right: 0px;
     margin-top: -150px;
     /*  top: 782px; */
